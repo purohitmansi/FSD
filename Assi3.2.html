@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Brain Balance</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRicR6KsCZjtNHSqwnqyoM_1tJb9oB7FZ8wkg&usqp=CAU);
+        font-family: sans-serif;
+        background-size: cover;
+      }
+      .SignupBox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        height: 590px;
+        padding: 50px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .user {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        top: calc(-100px / 2);
+        left: calc(50% - 50px);
+      }
+
+      h2 {
+        color: whitesmoke;
+        font-size: 33px;
+        font-weight: 600;
+        margin: 0 0 35px 0;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+      }
+
+      .SignupBox p {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .SignupBox input {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .SignupBox input[type="text"],
+      .SignupBox input[type="password"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+      }
+
+      ::placeholder {
+        color: rgba(219, 21, 21, 0.5);
+      }
+      .SignupBox input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+        background: #ff267e;
+        cursor: pointer;
+        border-radius: 20px;
+      }
+
+      .SignupBox input[type="submit"]:hover {
+        background: #ff0066;
+        color: #262626;
+      }
+
+      .SignupBox a {
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .signup {
+        color: white;
+        margin: 15px 0;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+      }
+      .links {
+        display: flex;
+        cursor: pointer;
+        color: white;
+        margin: 0 0 20px 0;
+      }
+      .facebook,
+      .instagram {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        margin-left: 10px;
+        text-align: center;
+      }
+      .facebook {
+        margin-left: 0;
+        background: #4267b2;
+        border: 1px solid #3e61a8;
+      }
+      .instagram {
+        background: #e1306c;
+        border: 1px solid #df2060;
+      }
+      .facebook:hover {
+        background: #3e61a8;
+      }
+      .instagram:hover {
+        background: #df2060;
+      }
+      .links i {
+        font-size: 17px;
+      }
+      i span {
+        margin-left: 8px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+      }
+      .signup {
+        font-size: 15px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      .signup a {
+        color: rgb(27, 236, 55);
+        text-decoration: none;
+      }
+      .signup a:hover {
+        text-decoration: underline;
+        color: rgb(248, 138, 35);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="SignupBox">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-CQ3XBpttc_8bf6PhwrN9BEnLIprD4pYdw&usqp=CAU"
+        class="user"
+      />
+      <h2>Sign up</h2>
+      <form>
+        <p>UserName</p>
+        <input type="text" name="" placeholder="Enter Usename" />
+        <p>Email</p>
+        <input type="text" name="" placeholder="Enter Email" />
+        <p>Password</p>
+        <input type="password" name="" placeholder="******" />
+        <br /><br />
+        <input type="submit" name="" value="Sign up" />
+      </form>
+      <div class="signup">Or Sign up with</div>
+      <div class="links">
+        <div class="facebook">
+          <p class="facebook-f"><span>Facebook</span></p>
+        </div>
+        <div class="instagram">
+          <p class="instagram-i"><span>Instagram</span></p>
+        </div>
+      </div>
+      <div class="signup">
+        Have an account?
+        <a href="Login.html">Log in</a>
+      </div>
+    </div>
+  </body>
+</html
